@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karoliny Queiroz - Estética</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="myFunction()" style="margin: 0;">
+  <div id="loader"></div>
+  <div style="display: none;" id="myDiv" class="animate-bottom">
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="assets/img/logo.jpg" alt="Karoliny Queiroz Estética"
+            class="d-inline-block align-text-top img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">KQ - Estética</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="nav-menu navbar-nav justify-content-center flex-grow-1 pe-3" id="nav-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tratamentos.html">tratamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#my-about">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="assets/img/home.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="home-content">
+        <div class="home-title">
+          <h2 class="title mt-4 text-center">Seja Bem Vindo(a)</h2>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <!-- PELE -->
+        <hr class="title">
+        <h2 class="title d-flex justify-content-start one" style="margin-top: 50px !important;">Tratamentos Faciais</h2>
+        <!-- CONTENT -->
+        <div class="about-content swiper">
+          <div class="swiper-wrapper swiper-about">
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/hidratacao.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Hidratação</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/limpeza-pele.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Limpeza de Pele</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/peeling-diamante.PNG" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Peeling de Diamante</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/tratamento-manchas.JPG" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Tratamento p/ Manchas</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/microagulhamento.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Microagulhamento</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/peeling-químico.JPEG" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Peeling Químico</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Tratamento p/ Acnes</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/pele/linhas-express.JPG" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Tratamento p/ <br>Linhas de Expressão</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- CORPO -->
+        <div class="home-tite">
+          <h2 class="title d-flex justify-content-start mt-4">Tratamentos Corporais</h2>
+        </div>
+        <div class="about-content swiper">
+          <div class="swiper-wrapper swiper-about">
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/corpo/corpo.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Termoterapia</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/corpo/corpo2.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Radiofrequência<h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/corpo/corpo4.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Ventosaterapia</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/corpo/corpo6.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">acupuntura</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- CILIOS -->
+        <div class="home-tite">
+          <h2 class="title d-flex justify-content-start mt-4">Extensão de Cílios</h2>
+        </div>
+        <!-- CONTENT -->
+        <div class="about-content swiper">
+          <div class="swiper-wrapper swiper-about">
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/cílios/cilios.jpeg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Fio a Fio</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/cílios/cilios2.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Volume Híbrido</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/cílios/cilios6.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Volume Russo</h2>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box">
+                <img src="assets/img/cílios/cilios5.jpg" class="img-fluid">
+                <div class="box-text">
+                  <h2 class="subtitle">Mega Volume</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <a href="tratamentos.html" class="btn btn-primary info" style="font-family: 'Poppins', sans-serif !important;
+     background-color: #9b544c !important; border: #b78e8b;">Mais informações<i class="fa fa-arrow-right"></i></a>
+     </div>
+
+    </section>
+    <!-- DESCRIPTION PROFISSIONAL -->
+    <section class="carrer-container carrer mt-4" id="my-about">
+      <div class="container">
+        <div class="carrer-wraper">
+          <div class="carrer-wraper2">
+            <div class="img-perfil"></div>
+            <div class="carrer-perfil">
+              <h2 class="title mb-4">TÍTULO DO PROFISSIONAL</h2>
+              <p class="title">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint iure sequi ex ducimus. Fugit ullam quae
+                rem id. Veniam doloribus et perspiciatis optio voluptatum hic ea soluta tempore nam, mollitia illo vero
+                eveniet quasi reiciendis vel sed neque omnis officia quis molestiae aspernatur magni expedita beatae
+                numquam! Necessitatibus ipsum beatae quidem nesciunt ratione iure facere placeat dolore reiciendis
+                tempora unde earum a qui inventore voluptas praesentium harum ex sequi sit, quam veniam laboriosam odio
+                nam! Officiis reiciendis deserunt quibusdam laboriosam aliquid cum itaque soluta numquam officia qui ad
+                quidem, impedit molestias quasi commodi id earum nulla. Exercitationem pariatur porro ipsam ex commodi
+                tempore distinctio, odit sequi dolores aliquid cupiditate natus expedita? Corporis nobis sequi, ratione
+                doloribus in aperiam consequuntur velit.,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quia optio? Ipsum, maxime atque
+                eaque enim in sequi fugiat non?
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="title">
+      </div>
+    </section>
+    <!-- REVIEW -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="title">Depoimentos</h2>
+        <!-- REVIEWS CONTENT -->
+        <div class="review-content">
+          <!-- SWIPER -->
+          <div class="swiper reviews-content">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/vivi.jpg" alt="">
+                    <h2 class="title">Vivi Rodrigues</h2>
+                  </div>
+                  <p class="review-text color-text">A MELHOR ESTETICISTA.. Super atenciosa e cuidadosa com os clientes, perfeccionista com seu trabalho, comprometida e responsável. Eu amei o atendimento e absolutamente recomendo!</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/camila.jpg" alt="">
+                    <h2 class="title">Camila Cardial</h2>
+                  </div>
+                  <p class="review-text color-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                    veniam eveniet illum maiores dolorum nihil.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/neia.jpg" alt="">
+                    <h2 class="title">Neia Freitas</h2>
+                  </div>
+                  <p class="review-text color-text">Sorriso mais que garantido❤️ satisfação sempre, cuidados que fazem toda a diferença sdd de uma boa limpeza. Aproveito para agradecer toda dedicação 😍</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/silvia.jpg" alt="">
+                    <h2 class="title">Silvia Alves</h2>
+                  </div>
+                  <p class="review-text color-text">Minha experiência foi muito boa, sem palavras para descrever essa excelente profissional.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/geovana.jpg" alt="">
+                    <h2 class="title nice">Geovana Queiroz</h2>
+                  </div>
+                  <p class="review-text color-text">Ótimo atendimento. Amei os meus cílios e a minha limpeza de pele, com certeza ganhou + uma cliente. 😍😍</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/nice.jpg" alt="">
+                    <h2 class="title nice">Nice</h2>
+                  </div>
+                  <p class="review-text color-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                    veniam eveniet illum maiores dolorum nihil.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- BOX -->
+                <div class="review-box">
+                  <div class="review-profile">
+                    <img src="assets/img/reviews/natalia.jpg" alt="">
+                    <h2 class="title">Natália Cardial</h2>
+                  </div>
+                  <p class="review-text color-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                    veniam eveniet illum maiores dolorum nihil.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination swiper-review"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start" id="contact">
+      <div class="container p-4 pb-0">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4" style="font-weight: 600;">Nome da Empresa</h6>
+            <p class="subtitle">Karoliny Queiroz - Estética e Design de Cílios.</p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mt-3 contact">
+            <h6 class="text-uppercase mb-4" style="font-weight: 600;">Contato</h6>
+            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+              target="_blank" class="contact nav-link"><i class="fa-brands fa-whatsapp"></i> +55 11
+              99868-0109</a>
+            <a href="" class="email contact"><i class="fa fa-envelope"></i> karoliny33@gmail.com</a>
+            <a href="https://www.google.com/maps/place/R.+Mesopot%C3%A2mia,+273+-+Vila+Quintana,+S%C3%A3o+Paulo+-+SP,+04837-140/data=!4m2!3m1!1s0x94ce4f18a6bd3ba7:0x73dcfbbc0b3008e1?sa=X&ved=2ahUKEwju9u2Nwpv9AhWur5UCHQ-CC0IQ8gF6BAgLEAI"
+              target="_blank" class="contact nav-link endereco"><i class="fas fa-home mr-3"></i> R.
+              Mesopotâmia, 273 -
+              Vila
+              Quintana,
+              São Paulo - SP, 04837-140</a>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4" style="font-weight: 600;">Me siga nas Redes Sociais</h6>
+            <section class="social">
+              <!-- WhatsApp -->
+              <a class="btn text-white btn-floating m-1" style="background: #34af23;"
+                href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating " style="
+                background: radial-gradient(at 33% 100%,
+                #fed373 4%,
+                #f15245 30%,
+                #d92e7f 62%,
+                #9b36b7 85%,
+                #515ecf); border: none; height: 38px !important;" href="https://www.instagram.com/kq_estetica/"
+                target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+              <!-- Facebook -->
+
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                href="https://www.facebook.com/kq.estetica" target="_blank" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+              <!-- GOOGLE -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39; margin-left: 4px !important;"
+                href="https://www.google.com/search?q=%22karoliny+queiroz+-+est%C3%A9tica+e+design+de+c%C3%ADlios%22&sxsrf=AJOqlzWVGyyTJhXj5GFUbVXv8dmBRLSN9g%3A1676660069999&ei=Zc3vY-jMPLzX1sQPoqWRwA4&ved=0ahUKEwiok4a_nZ39AhW8q5UCHaJSBOgQ4dUDCA8&uact=5&oq=%22karoliny+queiroz+-+est%C3%A9tica+e+design+de+c%C3%ADlios%22&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzICCCZKBAhBGAFQtgVYjwtg-g9oAXAAeACAAWiIAcwBkgEDMC4ymAEAoAEBwAEB&sclient=gws-wiz-serp"
+                target="_blank" role="button"><i class="fab fa-google"></i></a>
+              <!-- Google -->
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+    </script>
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- JS -->
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="js/swiper.bundle.min.js"></script>
+   <script src="js/swiper.js"></script>
+   <script src="js/main.js"></script>
+  </div>
+</body>
+
+</html>

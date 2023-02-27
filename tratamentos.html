@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karoliny Queiroz - Estética</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="myFunction()" style="margin: 0;">
+    <div id="loader"></div>
+    <div style="display: none;" id="myDiv" class="animate-bottom">
+        <!-- HEADER -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/img/logo.jpg" alt="Karoliny Queiroz Estética"
+                        class="d-inline-block align-text-top img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">KQ - Estética</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#trataments">Tratamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-img">
+                <img src="assets/img/home.jpg" alt="" class="img-fluid">
+            </div>
+    </div>
+    </section>
+    <!-- TRATAMENTOS -->
+    <section class="trataments" id="trataments">
+        <div class="container">
+            <h2 class="title">O seu maior investimento é você!</h2>
+            <hr class="title">
+            <h2 class="title title-1 d-flex justify-content-center">Tratamentos Faciais</h2>
+            <div class="trataments-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Hidratação</h2>
+                            <p>A hidratação adequada previne possíveis irritações, ameniza o aspecto esbranquiçado,
+                                melhora a textura e o mais importante: protege a pele dos agentes externos. Esses
+                                agentes estão presentes no meio ambiente, como por exemplo: poluição, água quente ou
+                                muito fria, clima seco, fatores alimentares et.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$89,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Limpeza de Pele</h2>
+                            <p>A limpeza de pele é o procedimento responsável por fazer a higienização na pele, ou
+                                seja, ela é responsável pela remoção dos cravos e impurezas, promovendo a renovação
+                                celular da região. Uma pele que não é higienizada corretamente vai sofrer com o
+                                acúmulo de impurezas, o que por sua vez causará o entupimento dos poros.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$160,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Peeling de Diamante</h2>
+                            <p>O peeling químico é uma das formas mais efetivas de rejuvenescimento da pele, sendo
+                                responsável por uma renovação celular induzida por ácidos. O tratamento estético é
+                                feito em consultório dermatológico e sua indicação ocorre após análise criteriosa da
+                                saúde da cútis do paciente.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$89,90<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento para Manchas</h2>
+                            <p>O laser não ablativo funciona com a luz pulsada e impulsiona a luminosidade, o viço e
+                                o rejuvenescimento da pele. O método também é indicado para tratamento de manchas no
+                                rosto e ajuda a suavizar a aparência de melasma, manchas de acne e cicatrizes. Além
+                                disso, o tratamento conta ainda com diversos beneficios.</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento p/ Linhas de Expressão</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam distinctio nesciunt
+                                voluptatum rem! Atque quis quibusdam velit excepturi nam illum odio, minima libero
+                                mollitia molestias Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur, dolorem!</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua Avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento para Acnes e cicatriz da Acne</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam distinctio nesciunt
+                                voluptatum rem! Atque quis quibusdam velit excepturi nam illum odio, minima libero
+                                mollitia molestias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto,
+                                incidunt!</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Microagulhamento</h2>
+                            <p>O microagulhamento é um procedimento estético que por meio de várias agulhas aumenta
+                                a vasodilatação e estimula a produção de colágeno. Indicado para diminuir manchas,
+                                rugas, das linhas de expressão, promovendo o rejuvenescimento facial e clareamento
+                                da pele.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$155,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Limpeza de Pele Premium</h2>
+                            <p>A limpeza premium melhora o tônus deixando a pele mais viçosa e com mais elasticidade. A
+                                aparência da pele fica mais saudável, hidratada e jovem, e esses são alguns dos
+                                benefícios percebidos imediatamente com o estímulo da renovação celular.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$150,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important;background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Limpeza de Pele + Peelling de Diamante</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit nemo praesentium
+                                voluptatibus esse atque odit optio amet quod temporibus nisi, voluptatem dicta vitae
+                                alias Lorem ipsum dolor sit amet consectetur adipisicing elit. A, nobis.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$190,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Peeling Químico</h2>
+                            <p>O peeling químico é uma das formas mais efetivas de rejuvenescimento da pele, sendo
+                                responsável por uma renovação celular induzida por ácidos. O tratamento estético é
+                                feito em consultório dermatológico e sua indicação ocorre após análise criteriosa
+                                dasaúde da cútis do paciente.
+                            </p>
+                            <h2 class="btn btn-primary btn-2" style="color: #fff; font-family: 'Poppins', sans-serif !important;
+                             background-color: #9b544c !important; border: #b78e8b;">R$00,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- CORPO -->
+            <h2 class="title title-1 d-flex justify-content-center">Tratamentos Corporais</h2>
+            <div class="trataments-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Pedras Quentes</h2>
+                            <p>A massagem com pedras quentes é uma técnica milenar, utilizada por chineses, monges
+                                budistas e indigenas. As pedras são utilizadas com a finalidade de proporcionar uma ação
+                                terapêutica para aliviar a dor, relaxar a musculatura, proporcionar bem-estar e promover
+                                desintoxicação</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$130,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Drenagem linfática</h2>
+                            <p>A drenagem linfática tem como objetivo aumentar o volume e a velocidade da linfa a ser
+                                transportada pelos vasos e ductos linfáticos, por meio de manobras que imitem o
+                                bombeamento fisiológico. Ela tem influência direta no aumento da oxigenação dos tecidos,
+                                favorece a eliminação de toxinas e metabólitos e etc...</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$110,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento p/ Gordura Localizada</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsum? Laboriosam
+                                facere illo iusto rerum! In ullam doloremque incidunt facere, voluptatibus error tempora
+                                facilis voluptates.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$115,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Massagem Modeladora</h2>
+                            <p>Massagem modeladora é uma técnica da estética corporal em que o objetivo atingir as
+                                camadas mais profundas da pele através de movimentos, por isso o nome. Com isso,
+                                benefícios como melhora na circulação e no metabolismo, além de ajudar a combater a
+                                celulite e auxiliar no processo de eliminação da gordura localizada.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$115,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Massagem Relaxante</h2>
+                            <p>A massagem relaxante é uma técnica que aplica movimentos suaves utilizando apenas as mãos
+                                na musculatura do corpo, como cotovelos, punhos e antebraços. Durante a massagem são
+                                utilizados cremes ou óleos vegetais ou que auxiliam a execução dos movimentos sempre
+                                contínuos, mantendo um ritmo específico para estimular a produção de hormônios
+                                responsáveis pelo relaxamento e combate a tensão muscular.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$110,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Ventosaterapia</h2>
+                            <p>A ventosaterapia possibilita o relaxamento do corpo e da mente, fortalecimento dos vasos
+                                sanguíneos, reduz dores e inflamações, melhora o fluxo sanguíneo e a circulação,
+                                eliminação de contraturas musculares e pontos de tensão.</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$80,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Hidratação</h2>
+                            <p> hidratação adequada previne possíveis irritações, ameniza o aspecto esbranquiçado,
+                                melhora a textura e o mais importante: protege a pele dos agentes externos. Esses
+                                agentes estão presentes no meio ambiente, como por exemplo: poluição, água quente ou
+                                muito fria, clima seco, fatores alimentares etc...</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$105,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Limpeza de Pele</h2>
+                            <p>A limnpeza de pele é o procedimento responsável por fazer a higienização na pele, ou
+                                seja, ela é responsável pela remoção dos cravos e impurezas, promovendo a renovação
+                                celular da região. Uma pele que não é higienizada corretamente vai sofrer com o acúmulo
+                                de impurezas, que por sua vez causará o entupimento dos poros</p>
+                            <h2 class="btn btn-primary btn-2"
+                                style="color: #fff; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">
+                                R$160,00<i></i></h2>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important;background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento para Flacidez</h2>
+                            <p>A radiofrequência corporal é um tratamento estético não invasivo que produz um
+                                aquecimento profundo da região a temperaturas de até 42 graus, que propicia uma melhoria
+                                da flacidez tissular (flacidez de pele).</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento para Estrias</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla animi magni provident
+                                tenetur perspiciatis! Suscipit nihil et sit dignissimos minima ipsa incidunt! Esse,
+                                veritatis! Porro?</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Tratamento para Celulite</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla animi magni provident
+                                tenetur perspiciatis! Suscipit nihil et sit dignissimos minima ipsa incidunt! Esse,
+                                veritatis! Porro?</p>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-2"
+                                style=" font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                sua avaliação<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination" style="margin-bottom: 15px !important;"></div>
+                
+            </div>
+            <h2 class="title title-1 d-flex justify-content-center">Design de Cílios</h2>
+            <div class="trataments-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Fio a Fio</h2>
+                            <p>Cada fio sintético é colado ao fio natural com o poder de realçar o olhar trazendo um efeito natural e discreto.</p>
+                            <div class="dropend btn">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #9b544c !important;">R$</button>
+                                <ul class="dropdown-menu">
+                                  <li><p class="dropdown-item title">Aplicação R$130,00</p></li>
+                                  <li><p class="dropdown-item title">Manutenção R$85,00</p></li>
+                                </ul>
+                              </div>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-cilios"
+                                style="padding: 12px !important; margin-top: 15px !important; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Volume Híbrido</h2>
+                            <p>A combinação perfeita! clássico fio a fio e volume russo juntos  para entregar um olhar sutil e bem glamouroso</p>
+                            <div class="btn-group dropend btn">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #9b544c !important;">R$</button>
+                                <ul class="dropdown-menu" style="z-index: 100 !important;">
+                                  <li><p class="dropdown-item title">Aplicação R$160,00</p></li>
+                                  <li><p class="dropdown-item title">Manutenção R$110,00</p></li>
+                                </ul>
+                              </div>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-cilios"
+                                style="padding: 12px !important; margin-top: 15px !important; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Volume Russo</h2>
+                            <p>Esse é sucesso na certa! uma técnica mais dramática e marcante, podendo ser colado de 3 a 7 fios em cada cílio natural. É de arrancar suspiros, viu?</p>
+                            <div class="btn-group dropend btn">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #9b544c !important;">R$</button>
+                                <ul class="dropdown-menu">
+                                  <li><p class="dropdown-item title">Aplicação R$180,00</p></li>
+                                  <li><p class="dropdown-item title">Manutenção R$120,00</p></li>
+                                </ul>
+                              </div>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-cilios"
+                                style="padding: 12px !important; margin-top: 15px !important; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="trataments-single">
+                            <h2>Mega Volume</h2>
+                            <p>Esse é para você que gosta de chegar chegando! Técnica que acopla até 15 fios ultrafinos em um único cílio. Trazendo um efeito mais marcante e chamativo</p>
+                            <div class="btn-group dropend btn">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #9b544c !important;">R$</button>
+                                <ul class="dropdown-menu" style="z-index: 100 !important;">
+                                  <li><p class="dropdown-item title">Aplicação R$220,00</p></li>
+                                  <li><p class="dropdown-item title">Manutenção R$150,00</p></li>
+                                </ul>
+                              </div>
+                            <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                                class="btn btn-primary btn-cilios"
+                                style="padding: 12px !important; margin-top: 15px !important; font-family: 'Poppins', sans-serif !important; background-color: #9b544c !important; border: #b78e8b;">Agende
+                                seu Horário<i class="fab fa-whatsapp px-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination" style="margin-bottom: 15px !important;"></div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- SERVICOS -->
+    <section class="services block" id="services">
+        <div class="container">
+            <h2 class="title text-center">Nosso Diferencial</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <div class="services-content">
+                        <div class="img-container mb-4 d-flex justify-content-center">
+                            <img src="assets/img/destaques/Facial massage-rafiki.svg" alt="" class="img-fluid">
+                        </div>
+                        <p class="title">Cuidamos da sua saúde</p>
+                        <p class="mb-0 subtitle text-center" style="font-size: 14px !important; color: black;">Tratamentos que garantem a saúde da sua pele, do seu corpo e que ajudam a relaxar a mente!</p>
+                    </div>
+                    <a class="subtitles" href="https://storyset.com/people">People illustrations by Storyset</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <div class="services-content">
+                        <div class="img-container mb-4 d-flex justify-content-center">
+                            <img src="assets/img/destaques/Enthusiastic-rafiki.svg" alt="" class="img-fluid">
+                        </div>
+                        <p class="title">Melhorar sua autoestima</p>
+                        <p class="mb-0 subtitle text-center" style="font-size: 14px !important; color: black;">Cuidados que te deixam linda e com a altoestima lá em cima como deve ser!</p>
+                    </div>
+                    <a class="subtitles" href="https://storyset.com/people">People illustrations by Storyset</a>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <div class="services-content">
+                        <div class="img-container mb-4 d-flex justify-content-center">
+                            <img src="assets/img/destaques/Facial massage-bro.svg" alt="" class="img-fluid">
+                        </div>
+                        <p class="title">Preocupada com seu bem estar</p>
+                        <p class="mb-0 subtitle text-center" style="font-size: 14px !important; color: black;">Profissional qualificada e preocupada com o bem estar da cliente!</p>
+                    </div>
+                    <a class="subtitles" href="https://storyset.com/people">People illustrations by Storyset</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start" id="contact">
+        <div class="container p-4 pb-0">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4" style="font-weight: 600;">Nome da Empresa</h6>
+                    <p class="subtitle">Karoliny Queiroz - Estética e Design de Cílios.</p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-4 col-lg-3 col-xl-3 mt-3 contact">
+                    <h6 class="text-uppercase mb-4" style="font-weight: 600;">Contato</h6>
+                    <a href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                        target="_blank" class="contact nav-link"><i class="fa-brands fa-whatsapp"></i> +55 11
+                        99868-0109</a>
+                    <a href="" class="email contact"><i class="fa fa-envelope"></i> karoliny33@gmail.com</a>
+                    <a href="https://www.google.com/maps/place/R.+Mesopot%C3%A2mia,+273+-+Vila+Quintana,+S%C3%A3o+Paulo+-+SP,+04837-140/data=!4m2!3m1!1s0x94ce4f18a6bd3ba7:0x73dcfbbc0b3008e1?sa=X&ved=2ahUKEwju9u2Nwpv9AhWur5UCHQ-CC0IQ8gF6BAgLEAI"
+                        target="_blank" class="contact nav-link endereco"><i class="fas fa-home mr-3"></i> R.
+                        Mesopotâmia, 273 -
+                        Vila
+                        Quintana,
+                        São Paulo - SP, 04837-140</a>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4" style="font-weight: 600;">Me siga nas Redes Sociais</h6>
+                    <section class="social">
+                        <!-- WhatsApp -->
+                        <a class="btn text-white btn-floating m-1" style="background: #34af23;"
+                            href="https://api.whatsapp.com/send?phone=%2B5511998680109&fbclid=IwAR3j_hslGkx74s4CAjLd-UlACYnBMt8RwFMwnkzvx8yKvKbM14SAC4zjTQA"
+                            target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
+                        <!-- Instagram -->
+                        <a class="btn text-white btn-floating " style="
+                  background: radial-gradient(at 33% 100%,
+                  #fed373 4%,
+                  #f15245 30%,
+                  #d92e7f 62%,
+                  #9b36b7 85%,
+                  #515ecf); border: none; height: 38px !important;" href="https://www.instagram.com/kq_estetica/"
+                            target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+                        <!-- Facebook -->
+
+                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                            href="https://www.facebook.com/kq.estetica" target="_blank" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- GOOGLE -->
+                        <a class="btn text-white btn-floating m-1"
+                            style="background-color: #dd4b39; margin-left: 4px !important;"
+                            href="https://www.google.com/search?q=%22karoliny+queiroz+-+est%C3%A9tica+e+design+de+c%C3%ADlios%22&sxsrf=AJOqlzWVGyyTJhXj5GFUbVXv8dmBRLSN9g%3A1676660069999&ei=Zc3vY-jMPLzX1sQPoqWRwA4&ved=0ahUKEwiok4a_nZ39AhW8q5UCHaJSBOgQ4dUDCA8&uact=5&oq=%22karoliny+queiroz+-+est%C3%A9tica+e+design+de+c%C3%ADlios%22&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzICCCZKBAhBGAFQtgVYjwtg-g9oAXAAeACAAWiIAcwBkgEDMC4ymAEAoAEBwAEB&sclient=gws-wiz-serp"
+                            target="_blank" role="button"><i class="fab fa-google"></i></a>
+                        <!-- Google -->
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+   <!-- BOOTSTRAP -->    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper.bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
