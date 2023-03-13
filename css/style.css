@@ -273,6 +273,8 @@ h5.offcanvas-title {
       .carrer p{
         font-size: 16px !important;
       }
+
+      
 }
 
 @media (max-width: 300px){
@@ -921,6 +923,9 @@ a.email:hover,
     .home-img img{
         height: 300px !important;
     }
+    .trataments h2{
+        margin-top: 50px !important;
+      }
 }
 
 @media screen and (max-width: 914px) {
@@ -930,7 +935,12 @@ a.email:hover,
         position: relative;
         top: 30px;
     }
+
+    .trataments h2.title{
+        margin-top: 80px !important;
+    }
 }
+
 @media screen and (max-width: 768px) {
     .home-img img {
         width: 90% !important;
@@ -973,7 +983,6 @@ a.email:hover,
     }
 
     .box-text {
-
         font-size: 1.5rem;
     }
 
@@ -1058,6 +1067,9 @@ a.email:hover,
         margin-top: 12px !important;
     } */
 
+    .trataments h2.title{
+        margin-top: 80px !important;
+      }
 }
 
 @media screen and (max-width: 768px){
@@ -1071,6 +1083,10 @@ a.email:hover,
         justify-content: center !important;
         text-align: center !important;
     }
+
+    .trataments h2.title{
+        margin-top: 80px !important;
+      }
 }
 
 @media screen and (max-width: 400px) {
@@ -1195,6 +1211,10 @@ a.email:hover,
         max-height: 160px !important;
     }
 
+    .trataments h2.title{
+        margin-top: 80px !important;
+      }
+
 }
 
 @media screen and (max-width: 440px){
@@ -1209,7 +1229,9 @@ a.email:hover,
         max-height: 160px !important;
     }
 
-
+    .trataments h2.title{
+        margin-top: 80px !important;
+      }
 
 }
 
@@ -1242,6 +1264,9 @@ a.email:hover,
         justify-content: center;
     }
 
+    .trataments h2.title{
+        margin-top: 80px !important;
+      }
 
 
     .services .img-container img{
