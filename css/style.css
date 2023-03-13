@@ -930,6 +930,9 @@ a.email:hover,
         margin-top: 80px !important;
     }
 
+    .about h2.initial{
+        margin-top: 80px !important;
+    }
    
 }
 
@@ -940,7 +943,12 @@ a.email:hover,
         position: relative;
         top: 30px;
     }
+
     .trataments h2.initial{
+        margin-top: 80px !important;
+    }
+
+    .about h2.initial{
         margin-top: 80px !important;
     }
 }
@@ -1094,6 +1102,10 @@ a.email:hover,
     .trataments h2.initial{
         margin-top: 80px !important;
     }
+
+    .about h2.initial{
+        margin-top: 80px !important;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -1222,6 +1234,10 @@ a.email:hover,
         max-height: 160px !important;
     }
 
+    .about h2.initial{
+        margin-top: 80px !important;
+    }
+
 }
 
 @media screen and (max-width: 440px){
@@ -1236,6 +1252,9 @@ a.email:hover,
         max-height: 160px !important;
     }
 
+    .about h2.initial{
+        margin-top: 80px !important;
+    }
 
     .trataments h2.initial{
         margin-top: 80px !important;
