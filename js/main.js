@@ -92,6 +92,7 @@ var swiper = new Swiper(".about-container", {
 
 // REVIEWS
 var swiper = new Swiper(".reviews-content", {
+  loop: true,
   spaceBetween: 30,
   autoplay: {
     delay: 3000,
@@ -107,6 +108,7 @@ var swiper = new Swiper(".reviews-content", {
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
+  loop: true,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
@@ -115,20 +117,3 @@ var swiper = new Swiper(".trataments-content", {
 });
 
 
-
-const productContainers = [...document.querySelectorAll('.product-container')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-const preBtn = [...document.querySelectorAll('.pre-btn')];
-
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
