@@ -67,11 +67,19 @@ var swiper = new Swiper(".about-container", {
       slidesPerView: 4,
       spaceBetween: 180,
     },
+     1000: {
+      slidesPerView: 4,
+      spaceBetween: 150,
+    },
     1024: {
       slidesPerView: 4,
       spaceBetween: 150,
     },
     1480: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+     1400: {
       slidesPerView: 5,
       spaceBetween: 50,
     },
