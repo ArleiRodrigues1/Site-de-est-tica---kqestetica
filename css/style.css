@@ -571,9 +571,26 @@ h2.title {
 }
 
 
-
 .trataments .swiper-button-prev:hover,
 .trataments .swiper-button-next:hover{
+    color: black !important;
+    font-weight: bold !important;
+    transition: all .3s linear;
+}
+
+.reviews .swiper-button-prev,
+.reviews .swiper-button-next{
+    color: lightgray !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: -60px !important;
+}
+
+
+.reviews .swiper-button-prev:hover,
+.reviews .swiper-button-next:hover{
     color: black !important;
     font-weight: bold !important;
     transition: all .3s linear;
@@ -791,51 +808,6 @@ p.dropdown-item:last-child{
     }
 }
 
-/*
-.trataments .two-slides{
-    margin-top: 80px !important;
-}
-
-
-
-.tratament-single{
-    padding: 20px;
-    background: var(--primary-color) !important;
-
-}
-
-.tratament-single h2{
-    font-size: 16px !important;
-    color: #9b544c;
-}
-
-.tratament-single a{
-    color: #fff;
-    font-size: 15px;
-
-}
-
-.tratament-single .fa-whatsapp{
-    margin-left: -4px !important;
-    text-align: center;
-    font-size: 13px;
-}
-
-
-
-.trataments .btn-primary:hover{
-    transform: scale(0.9);
-    transition: all 0.5s linear;
-}
-
-.trataments h2.btn-2{
-}
-
-
-.trataments .swiper-pagination{
-    position: relative;
-    top: 5px !important;
-} */
 
 /* SERVICES */
 .services{

@@ -106,13 +106,16 @@ var swiper = new Swiper(".reviews-content", {
     delay: 3000,
     disableOnInteraction: false,
   },
-  pagination: {
+  navigation: {
+    clickable: true,
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+    pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  
 });
-
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
