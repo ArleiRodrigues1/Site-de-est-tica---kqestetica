@@ -81,7 +81,7 @@ var swiper = new Swiper(".about-container", {
     },
      1400: {
       slidesPerView: 5,
-      spaceBetween: 50,
+      spaceBetween: 110,
     },
     1460: {
       slidesPerView: 5,
@@ -121,6 +121,10 @@ var swiper = new Swiper(".trataments-content", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   },
 });
 
