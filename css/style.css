@@ -1051,6 +1051,16 @@ a.email:hover,
         padding: 0 30px;
     }
 
+    .carrer h2{
+        margin-top: 35px !important;
+
+    }
+
+    .carrer p{
+        margin-bottom: 15px !important;
+    }
+
+    
     .swiper-review {
         position: absolute;
         bottom: 18px !important;
