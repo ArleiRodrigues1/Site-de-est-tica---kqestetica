@@ -721,6 +721,8 @@ section.carrer-container .carrer-perfil p {
     text-transform: uppercase;
     font-size: 18px !important;
     color: #9b544c;
+    margin-left: 15px !important;
+
 }
 
 .trataments-single{
@@ -730,6 +732,7 @@ section.carrer-container .carrer-perfil p {
 
 
 .trataments-single p{
+    margin-left: 15px !important;
     font-size: 15px;
     color: black;
     margin-bottom: 15px !important;
@@ -739,11 +742,17 @@ section.carrer-container .carrer-perfil p {
     background: var(--title-color) !important;
     color: #fff !important;
     transition: all .5s ease-in-out !important;
+    margin-left: 15px !important;
+}
+
+.btn-2{
+    margin-left: 11px !important;
 }
 
 .dropdown-center{
     background-color: var(--primary-color) !important;
     font-size: 25px !important;
+    margin-left: 15px !important;
 }
 
 .dropdown-toggle:hover{
