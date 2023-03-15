@@ -14,6 +14,7 @@ function showPage() {
 // SWIPER
 var swiper = new Swiper(".about-container", {
   loop: true,
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -100,22 +101,21 @@ var swiper = new Swiper(".about-container", {
 
 // REVIEWS
 var swiper = new Swiper(".reviews-content", {
-  loop: true,
+  slidesPerView: 1,
   spaceBetween: 30,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  grabCursor: true,
+  loop: true,
   navigation: {
     clickable: true,
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
-  },
-    pagination: {
+},
+  pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
+  }
 });
+ 
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
@@ -132,3 +132,22 @@ var swiper = new Swiper(".trataments-content", {
 });
 
 
+var swiper = new Swiper(".slide-content", {
+  slidesPerView: 1,
+  spaceBetween: 25,
+  loop: true,
+  centerSlide: 'true',
+  fade: 'true',
+  grabCursor: 'true',
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+ 
+});
