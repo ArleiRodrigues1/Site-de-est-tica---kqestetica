@@ -43,6 +43,12 @@ h2.subtitle {
     border-radius: 3rem;
     font-weight: 400;
     text-align: center;
+    margin-left: 15px !important;
+}
+
+a.btn-primary{
+    margin-left: -2px !important;
+
 }
 
 .btn-lg{
@@ -154,6 +160,10 @@ h2.btn{
 .swiper-about img {
     width: 450px !important;
     max-height: 100% !important;
+}
+
+.swiper-pagination .reviews{
+    margin-top: 150px !important;
 }
 
 .swiper-pagination-bullet {
@@ -274,7 +284,9 @@ h5.offcanvas-title {
         font-size: 16px !important;
       }
 
-      
+      .btn-2{
+        margin-left: 0 !important;
+      }
 }
 
 @media (max-width: 300px){
@@ -347,47 +359,6 @@ h2.title {
     box-shadow: rgba(0,0,0,0.6);
 }
 
-/* section.servicos .container {
-    top: -30px;
-    display: flex;
-    max-width: 800px;
-    position: relative;
-    text-align: center;
-    align-items: center;
-}
-
-
-.servicos .container .box-servico h2 {
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-.servicos .container .box-servico p {
-    margin-top: 8px;
-    font-size: 12px;
-    font-weight: normal;
-
-}
-
-.servicos .container .box-servico:nth-of-type(1) {
-    width: 30%;
-    padding: 50px 2%;
-    background-color: #b78e8b;
-}
-
-.servicos .container .box-servico:nth-of-type(2) {
-    width: 40%;
-    padding: 80px 2%;
-    background-image: none;
-    background-color: #b78e8b;
-}
-
-.servicos .container .box-servico:nth-of-type(3) {
-    width: 30%;
-    padding: 50px 2%;
-    background-color: #b78e8b;
-} */
 
 .about{
     margin-top: 50px;
@@ -501,8 +472,6 @@ h2.title {
     left: -54px;
     top: -14px !important;
     z-index: 00 !important;
-
-
 }
 
 .text-span{
@@ -585,9 +554,6 @@ h2.title {
     align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-    margin-top: -25px !important;
 }
 
 
@@ -653,19 +619,16 @@ section.carrer-container .carrer-perfil p {
 
 /* REVIEWS */
 .slide-container{
-    max-width: 750px;
-    width: 100%;
-    padding: 40px 0;
+    max-width: 790px;
+    margin-bottom: 100px;
 }
 
 .slide-content{
     margin: 0 40px;
-    overflow: hidden;
     border-radius: 25px;
 }
 
   .card{
-    border-radius: 25px;
     background-color: var(--title-color);
 }
   
@@ -674,7 +637,6 @@ section.carrer-container .carrer-perfil p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
 }
 
 .image-content{
@@ -695,7 +657,7 @@ section.carrer-container .carrer-perfil p {
 .card-image .card-img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover !important;
     object-position: center !important;
     border-radius: 50%;
     border: 4px solid #cfaca3;
@@ -715,8 +677,10 @@ section.carrer-container .carrer-perfil p {
 .description{
     font-size: 14px;
     color: #fff !important;
-    text-align: center;
-    font-weight: 400;
+    text-align: justify !important;
+    font-weight: 400 !important;
+    padding: 15px !important;
+
 }
 
 .swiper-navBtn{
@@ -733,27 +697,6 @@ section.carrer-container .carrer-perfil p {
 .swiper-navBtn::before,
 .swiper-navBtn::after{
     font-size: 20px !important;
-}
-
-.swiper-button-next{
-    right: 0;
-}
-
-.swiper-button-prev{
-    left: 0;
-}
-
-.swiper-pagination-bullet{
-    background-color: #6E93f7;
-    opacity: 1;
-}
-
-.swiper-pagination-bullet-active{
-    background-color: #4070F4;
-}
-  
-@media screen and (max-width: 768px) {
-  
 }
 
 
@@ -775,8 +718,6 @@ section.carrer-container .carrer-perfil p {
     text-transform: uppercase;
     font-size: 18px !important;
     color: #9b544c;
-    margin-left: 15px !important;
-
 }
 
 .trataments-single{
@@ -784,11 +725,16 @@ section.carrer-container .carrer-perfil p {
     padding: 20px !important;
 }
 
+.trataments-single h2:nth-child(1){
+    margin-left: 25px !important;
+}
+
 
 .trataments-single p{
-    margin-left: 15px !important;
+    margin-left: 25px !important;
     font-size: 15px;
     color: black;
+    text-align: justify !important;
     margin-bottom: 15px !important;
 }
 
@@ -797,7 +743,6 @@ section.carrer-container .carrer-perfil p {
     color: #fff !important;
     transition: all .5s ease-in-out !important;
 }
-
 
 .dropdown-center{
     background-color: var(--primary-color) !important;
@@ -819,32 +764,6 @@ p.dropdown-item:last-child{
     background-color: transparent !important;
 }
 
-@media screen and (max-width: 380px){    
-   .swiper-navBtn{
-        margin-right: 5px !important;
-        margin-left: 5px !important;
-    }
-
-    .btn-2, a.btn{
-        display: flex !important;
-        flex-direction: column !important;
-        text-align: center !important;
-    }
-
-    .social .btn{
-        display: inline !important;
-    }
-    
-    .btn.info{
-        display: inline !important;
-    }
-
-    a.btn-cilios{
-        display: inline !important;
-    }
-}
-
-
 /* SERVICES */
 .services{
     margin-bottom: 100px;
@@ -864,7 +783,6 @@ p.dropdown-item:last-child{
     text-decoration: none;
     transition: all ease-in-out .2s;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
-
 }
 
 .services-content p.title{
@@ -940,28 +858,23 @@ a.email:hover,
     align-items: center !important;
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1100px){
     .reviews .swiper-button-prev,
     .reviews .swiper-button-next{
         color: lightgray !important;
-       
         position: fixed !important;
     }
-    
    
     .swiper-pagination{
         margin-bottom: 45px !important;
     }
 
-    .trataments .swiper-pagination{
+    .trataments .swiper-pagination
+    .card-content .swiper-pagination{
         position: relative;
-        top: 150px !important;
+        top: 10px !important;
     }
 
     .home-img img{
@@ -1043,17 +956,7 @@ a.email:hover,
     }
 
     .box-text {
-
         font-size: 1.5rem;
-    }
-
-    .swiper-pagination {
-        position: initial !important;
-        margin-bottom: 15px !important;
-    }
-
-    .swiper-pagination .space {
-        margin-bottom: 25px !important;
     }
 
     .btn-primary {
@@ -1099,17 +1002,6 @@ a.email:hover,
         margin-bottom: 15px !important;
     }
 
-    
-    .swiper-review {
-        position: absolute;
-        bottom: 18px !important;
-    }
-
-    /* .trataments h2.title {
-        margin-top: 50px !important;
-
-    } */
-
     .services .img-container img{
         display: flex !important;
         align-items: center !important;
@@ -1125,7 +1017,6 @@ a.email:hover,
     .reviews .swiper-button-next{
         margin-left: -20px !important;
         margin-right: -20px !important;
-        margin-top: -120px !important;
     }
 
     .swiper-navBtn{
@@ -1213,9 +1104,6 @@ a.email:hover,
         margin-bottom: 15px !important;
     }
 
-    .swiper-pagination .space {
-        margin-bottom: 25px !important;
-    }
 
     .btn-primary {
         margin-top: 20px !important;
@@ -1226,20 +1114,10 @@ a.email:hover,
     }
 
     section.carrer-container .carrer-wraper2 {
-        /*
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height:100%;
-        */
         height: auto;
         position: static;
         text-align: center;
         display: inline-block;
-        /*flex-direction: column;*/
     }
 
     section.carrer-container .img-perfil {
@@ -1275,7 +1153,6 @@ a.email:hover,
     .about h2.initial{
         margin-top: 80px !important;
     }
-
 }
 
 @media screen and (max-width: 440px){
@@ -1302,7 +1179,7 @@ a.email:hover,
 
 @media screen and (max-width: 390px){
     .btn-primary{
-        font-size: 14px !important;
+        font-size: 14.4px !important;
     }
 
     .btn-2{
@@ -1318,8 +1195,6 @@ a.email:hover,
         text-align: center;
         justify-content: center;
     }
-
-
 
     .services .img-container img{
         display: flex !important;
@@ -1343,7 +1218,55 @@ a.email:hover,
     .trataments h2.initial{
         margin-top: 80px !important;
     }
+    .swiper-navBtn{
+        position: relative;
+        bottom: -100px !important;
+    }    
 }
 
 
+@media screen and (max-width: 380px){    
+    .swiper-navBtn{
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+     }
+ 
+     .btn-2, a.btn{
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+     }
+ 
+     .social .btn{
+         display: inline !important;
+     }
+     
+     .btn.info{
+        display: inline !important;
+     }
+ 
+     a.btn-cilios{
+        display: inline !important;
+     }
+ }
+
+@media (max-width: 375px){
+    .swiper-navBtn{
+        position: relative;
+    }
+}
+
+@media (max-width: 320px ){
+    .swiper-navBtn{
+        display: none !important;
+    }
+
+    .dropdown-toggle{
+        font-size: 16px !important;
+    }
+    
+    .btn-2, a.btn{
+       font-size: 11.5px !important;
+    }
+}
 

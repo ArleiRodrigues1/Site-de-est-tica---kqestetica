@@ -100,54 +100,61 @@ var swiper = new Swiper(".about-container", {
 });
 
 // REVIEWS
-var swiper = new Swiper(".reviews-content", {
+var swiper = new Swiper('.reviews-content', {
   slidesPerView: 1,
   spaceBetween: 30,
-  grabCursor: true,
-  loop: true,
-  navigation: {
-    clickable: true,
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-},
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  }
-});
+  },
+ });
+
+ 
+// var swiper = new Swiper(".reviews-content", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   grabCursor: true,
+//   loop: true,
+//   navigation: {
+//     clickable: true,
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev"
+// },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
  
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
   loop: true,
+  spaceBetween: 30,
     navigation: {
       clickable: true,
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
   },
   pagination: {
-    el: ".swiper-pagination",
     clickable: true,
-  }
+    el: ".swiper-pagination",
+  },
 });
 
 
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 1,
-  spaceBetween: 25,
   loop: true,
-  centerSlide: 'true',
-  fade: 'true',
-  grabCursor: 'true',
+  grabCursor: true,
+  spaceBetween: 40,
+    navigation: {
+      clickable: true,
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+  },
   pagination: {
-    el: ".swiper-pagination",
     clickable: true,
-    dynamicBullets: true,
+    el: ".swiper-pagination",
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
- 
 });
