@@ -100,37 +100,26 @@ var swiper = new Swiper(".about-container", {
 });
 
 // REVIEWS
-var swiper = new Swiper('.reviews-content', {
+var swiper = new Swiper(".reviews-content", {
   slidesPerView: 1,
   spaceBetween: 30,
+  grabCursor: true,
+  loop: true,
+  navigation: {
+    clickable: true,
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+},
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
- });
-
-
-// var swiper = new Swiper(".reviews-content", {
-//   slidesPerView: 1,
-//   spaceBetween: 30,
-//   grabCursor: true,
-//   loop: true,
-//   navigation: {
-//     clickable: true,
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev"
-// },
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
+});
  
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
   loop: true,
-  spaceBetween: 30,
     navigation: {
       clickable: true,
       nextEl: ".swiper-button-next",
@@ -145,44 +134,20 @@ var swiper = new Swiper(".trataments-content", {
 
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 1,
+  spaceBetween: 45,
   loop: true,
-  grabCursor: true,
-  spaceBetween: 40,
-      navigation: {
-        nextEl: "#swiper-button-next-1",
-        prevEl: "#swiper-button-prev-1",
-    },
+  centerSlide: 'true',
+  fade: 'true',
+  grabCursor: 'true',
   pagination: {
-    clickable: true,
     el: ".swiper-pagination",
-  },
-});
-
-var TrandingSlider = new Swiper('.tranding-slider', {
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 40,
-  pagination: {
-    el: '.swiper-pagination',
     clickable: true,
+    dynamicBullets: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-});
-
-var swiper = new Swiper('.slide-content', {
-  grabCursor: true,
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 40,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
+
+ 
 });
