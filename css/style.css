@@ -162,9 +162,6 @@ h2.btn{
     max-height: 100% !important;
 }
 
-.swiper-pagination .reviews{
-    margin-top: 150px !important;
-}
 
 .swiper-pagination-bullet {
     background-color: #9b544c !important;
@@ -515,7 +512,6 @@ h2.title {
     display: flex !important;
     justify-items: center !important;
     justify-content: center !important;
-    margin: -80px -8px !important;
     z-index: 40000 !important;
     position:absolute !important;
 }
@@ -620,7 +616,8 @@ section.carrer-container .carrer-perfil p {
 /* REVIEWS */
 .slide-container{
     max-width: 790px;
-    margin-bottom: 100px;
+    margin-bottom: 50px !important;
+
 }
 
 .slide-content{
@@ -634,9 +631,9 @@ section.carrer-container .carrer-perfil p {
   
 .image-content,
 .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
 }
 
 .image-content{
@@ -650,7 +647,6 @@ section.carrer-container .carrer-perfil p {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background: #FFF;
     padding: 3px;
 }
 
@@ -726,12 +722,12 @@ section.carrer-container .carrer-perfil p {
 }
 
 .trataments-single h2:nth-child(1){
-    margin-left: 25px !important;
+    margin-left: 15px !important;
 }
 
 
 .trataments-single p{
-    margin-left: 25px !important;
+    margin-left: 15px !important;
     font-size: 15px;
     color: black;
     text-align: justify !important;
@@ -868,7 +864,11 @@ a.email:hover,
     }
    
     .swiper-pagination{
-        margin-bottom: 45px !important;
+        margin-top: 250px !important;
+    }
+
+    .trataments{
+        margin-bottom: 50px !important;
     }
 
     .trataments .swiper-pagination
@@ -1270,3 +1270,67 @@ a.email:hover,
     }
 }
 
+
+.tranding-slider-control {
+  position: relative !important;
+  bottom: 2rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.tranding-slider-control .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+.tranding-slider-control .slider-arrow {
+  left: 42%;
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 1.5rem;
+  color: lightgray;
+}
+
+.tranding-slider-control .slider-arrow:hover ion-icon {
+    font-size: 1.5rem;
+    color: black;
+    transition: all .3s linear;
+  }
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+
+@media (max-width: 1440px){
+    .tranding-slider-control .swiper-button-next,
+    .tranding-slider-control .swiper-button-prev{
+        margin-top: -29px !important;
+    }
+}
+
+@media (max-width: 1100px){
+    .tranding-slider-control .swiper-button-next,
+    .tranding-slider-control .swiper-button-prev{
+        margin-top: -60px !important;
+    }
+}
+
+@media (max-width: 390px){
+    .tranding-slider-control .swiper-button-next,
+    .tranding-slider-control .swiper-button-prev{
+        margin-top: -110px !important;
+    }
+}
