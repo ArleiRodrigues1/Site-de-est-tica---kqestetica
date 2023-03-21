@@ -162,6 +162,10 @@ h2.btn{
     max-height: 100% !important;
 }
 
+.swiper-pagination{
+    height: 150px !important;
+    margin-top: 35px !important;
+}
 
 .swiper-pagination-bullet {
     background-color: #9b544c !important;
@@ -181,6 +185,10 @@ h2.btn{
     width: 1.5rem !important;
 }
 
+.about .swiper-about:nth-child(1){
+    position: relative !important;
+    bottom: 40px !important;
+}
 
 /* SCROLL BAR */
 ::-webkit-scrollbar {
@@ -857,17 +865,16 @@ a.email:hover,
 
 /* MEDIA QUERIES */
 
+
 @media screen and (max-width: 1100px){
+  
+
     .reviews .swiper-button-prev,
     .reviews .swiper-button-next{
         color: lightgray !important;
         position: fixed !important;
     }
    
-    .swiper-pagination{
-        margin-bottom: -45px !important;
-    }
-
     .trataments .swiper-pagination
     .card-content .swiper-pagination{
         position: relative;
@@ -1179,6 +1186,11 @@ a.email:hover,
         font-size: 14.4px !important;
     }
 
+    .trataments-single .swiper-pagination:nth-child(1){
+        position: relative !important;
+        top: 50px !important;
+    }
+
     .btn-2{
         font-size: 14px !important;
     }
@@ -1215,6 +1227,7 @@ a.email:hover,
     .trataments h2.initial{
         margin-top: 80px !important;
     }
+    
     .swiper-navBtn{
         position: relative;
         bottom: -100px !important;
@@ -1266,3 +1279,5 @@ a.email:hover,
        font-size: 11.5px !important;
     }
 }
+
+
