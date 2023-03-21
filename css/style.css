@@ -47,7 +47,7 @@ h2.subtitle {
 }
 
 a.btn-primary{
-    margin-right: 15px !important;
+    margin-left: -2px !important;
 
 }
 
@@ -162,9 +162,6 @@ h2.btn{
     max-height: 100% !important;
 }
 
-.swiper-pagination .reviews{
-    margin-top: 150px !important;
-}
 
 .swiper-pagination-bullet {
     background-color: #9b544c !important;
@@ -657,7 +654,7 @@ section.carrer-container .carrer-perfil p {
 .card-image .card-img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover !important;
     object-position: center !important;
     border-radius: 50%;
     border: 4px solid #cfaca3;
@@ -677,11 +674,10 @@ section.carrer-container .carrer-perfil p {
 .description{
     font-size: 14px;
     color: #fff !important;
-    text-align: center;
-    font-weight: 400;
-    display: flex !important;
     text-align: justify !important;
-    padding: 25px !important;
+    font-weight: 400 !important;
+    padding: 15px !important;
+
 }
 
 .swiper-navBtn{
@@ -690,7 +686,6 @@ section.carrer-container .carrer-perfil p {
     margin-left: 40px !important;
     margin-right: 40px !important; 
 }
-
 
 .swiper-navBtn:hover{
     color: #000 !important;
@@ -702,12 +697,10 @@ section.carrer-container .carrer-perfil p {
 }
 
 
-
-
 /* Página de tratamentos */
 .trataments{
     margin-top: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 
 .btn-cilios{
@@ -733,18 +726,13 @@ section.carrer-container .carrer-perfil p {
     margin-left: 15px !important;
 }
 
-.trataments-single h2:nth-child(2){
-    margin-left: -15px !important;
-}
-
-
 
 .trataments-single p{
     margin-left: 15px !important;
     font-size: 15px;
     color: black;
+    text-align: justify !important;
     margin-bottom: 15px !important;
-   
 }
 
 .btn-primary:hover{
@@ -752,7 +740,6 @@ section.carrer-container .carrer-perfil p {
     color: #fff !important;
     transition: all .5s ease-in-out !important;
 }
-
 
 .dropdown-center{
     background-color: var(--primary-color) !important;
@@ -768,14 +755,11 @@ section.carrer-container .carrer-perfil p {
 
 p.dropdown-item{
     color: #9b544c !important;
-    margin-left: 0 !important;
 }
 
 p.dropdown-item:last-child{
     background-color: transparent !important;
 }
-
-
 
 /* SERVICES */
 .services{
@@ -871,28 +855,23 @@ a.email:hover,
     align-items: center !important;
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1100px){
     .reviews .swiper-button-prev,
     .reviews .swiper-button-next{
         color: lightgray !important;
-       
         position: fixed !important;
     }
-    
    
     .swiper-pagination{
-        margin-bottom: 45px !important;
+        margin-bottom: -45px !important;
     }
 
-    .trataments .swiper-pagination{
+    .trataments .swiper-pagination
+    .card-content .swiper-pagination{
         position: relative;
-        top: 150px !important;
+        top: 10px !important;
     }
 
     .home-img img{
@@ -932,12 +911,7 @@ a.email:hover,
 }
 
 @media screen and (max-width: 768px) {
-    .swiper-button-next .swiper-navBtn{ 
-        position: absolute !important;
-        left: 100px !important;
-    }
-
-
+    
     .home-img img {
         width: 90% !important;
         max-height: 60vh !important;
@@ -1098,7 +1072,6 @@ a.email:hover,
         margin-top: 150px !important;
     }
 
-    
     .about h2 {
         display: flex !important;
         justify-content: flex-start !important;
@@ -1242,7 +1215,6 @@ a.email:hover,
     .trataments h2.initial{
         margin-top: 80px !important;
     }
-
     .swiper-navBtn{
         position: relative;
         bottom: -100px !important;
@@ -1294,4 +1266,3 @@ a.email:hover,
        font-size: 11.5px !important;
     }
 }
-

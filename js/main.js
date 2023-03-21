@@ -119,15 +119,15 @@ var swiper = new Swiper(".reviews-content", {
 
 // TRATAMENTOS
 var swiper = new Swiper(".trataments-content", {
+  spaceBetween: 30,
   loop: true,
     navigation: {
-      clickable: true,
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   pagination: {
-    clickable: true,
     el: ".swiper-pagination",
+    clickable: true,
   },
 });
 
