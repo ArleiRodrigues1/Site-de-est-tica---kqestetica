@@ -261,25 +261,57 @@ h5.offcanvas-title {
 
 
 /* HOME */
-.banner{
-  position: relative;
-  background-image: url('../assets/img/home.jpg');
-  background-size: cover;
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
+.banner {
+    position: relative;
+    background-image: url('../img/banner-desk.jpg');
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    top: 50px;
+    overflow: hidden;
+    line-height: 50px;
 }
 
-@media (max-width: 768px){
-    .banner{
+
+@media (max-width: 300px){
+    .banner {
         position: relative;
-        background-image: url('../assets/img/home.jpg');
+        background-image: url('../img/banner-mobile.jpg');
         background-size: cover;
-        height: 330px;
+        height: 280px;
         width: 100%;
-        overflow: hidden;
         top: 50px;
-      }
+        overflow: hidden;
+        line-height: 50px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .banner {
+        position: relative;
+        background-image: url('../img/banner-mobile.jpg');
+        background-size: cover;
+        height: 280px;
+        width: 100%;
+        top: 50px;
+        overflow: hidden;
+        line-height: 50px;
+    }
+}
+
+
+@media (max-width: 412px){
+    .banner {
+        position: relative;
+        background-image: url('../img/banner-mobile.jpg');
+        background-size: cover;
+        height: 280px;
+        width: 100%;
+        top: 50px;
+        overflow: hidden;
+        line-height: 50px;
+    }
 
       .img-perfil{
         margin-bottom: 15px !important;
