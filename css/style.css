@@ -244,14 +244,6 @@ h5.offcanvas-title {
 
 .nav-link {
     color: var(--title-color);
-    border-bottom: 1px solid transparent;
-}
-
-.nav-link:hover{
-    border-bottom: 1px solid var(--title-color);
-    transition: all .5s linear;
-    color: var(--title-color);
-
 }
 
 .nav-link::selection{
@@ -647,7 +639,7 @@ section.carrer-container .carrer-perfil h2 {
 
 section.carrer-container .carrer-perfil p {
     font-size: 14px;
-    margin-top: 18px !important;
+    margin-top: 40px !important;
     color: #000000 !important;
     display: flex !important;
     text-align: justify !important;
@@ -1063,9 +1055,9 @@ a.email:hover,
     .slide-content{
         margin: 0 10px;
       }
-      .swiper-navBtn{
+      /*.swiper-navBtn{
          display: none;
-      }
+      }*/
    
       .swiper-navBtn{
            margin-right: 10px !important;
@@ -1299,9 +1291,9 @@ a.email:hover,
 }
 
 @media (max-width: 320px ){
-    .swiper-navBtn{
+    /* .swiper-navBtn{
         display: none !important;
-    }
+    } */
 
     .dropdown-toggle{
         font-size: 16px !important;
